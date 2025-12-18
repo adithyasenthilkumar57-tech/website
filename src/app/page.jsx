@@ -44,6 +44,8 @@ export default function Home() {
                         priority
                     />
                     <div className="absolute inset-0 bg-stone-900/60" />
+                    <div className="absolute inset-0 bg-stone-900/60" />
+                    <div className="absolute inset-0 bg-stone-900/60" />
                 </div>
 
                 <div className="relative z-10 container mx-auto px-4 md:px-6 text-center text-white">
