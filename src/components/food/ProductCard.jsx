@@ -3,15 +3,7 @@ import Image from 'next/image';
 import { Plus } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
-interface ProductCardProps {
-    title: string;
-    description: string;
-    price: number;
-    image: string;
-    category: string;
-}
-
-export function ProductCard({ title, description, price, image, category }: ProductCardProps) {
+export function ProductCard({ title, description, price, image, category }) {
     return (
         <div className="group bg-white rounded-3xl p-4 transition-all duration-300 hover:shadow-xl border border-stone-100">
             <div className="relative h-48 w-full rounded-2xl overflow-hidden mb-4">

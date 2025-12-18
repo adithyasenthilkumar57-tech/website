@@ -63,7 +63,7 @@ export default function MenuPage() {
         <div className="pt-24 pb-20 min-h-screen bg-stone-50">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4">MY Menu</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-stone-900 mb-4">Our Menu</h1>
                     <p className="text-lg text-stone-600 max-w-2xl mx-auto">
                         Explore our diverse selection of dishes, crafted to perfection. From appetizers to desserts, there's something for every palate.
                     </p>
